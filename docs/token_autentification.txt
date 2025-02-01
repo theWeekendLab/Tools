@@ -1,0 +1,8 @@
+Per creare un Token di autentificazione andare su:
+https://github.com/settings/tokens
+
+cliccare nel menu laterale a sinistra su Personal access tocken
+andare su tokens
+cliccare in alto a destra "Generate new token"
+datevi tutti i permessi del caso e poi salvatevi il token da qualche parte, sara la vostra password 
+per i comandi git del bash
