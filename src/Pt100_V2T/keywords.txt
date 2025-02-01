@@ -1,0 +1,30 @@
+##############################################################
+# Syntax:
+# <KEYWORD>	<TYPE>	<REFERENCE LINK>
+# <TYPE>: KEYWORD1, KEYWORD2, LITERAL1, LITERAL2
+##############################################################
+
+# Classes
+pt100	KEYWORD1	// PT100 class for temperature calculation
+
+# Public functions
+pt100	KEYWORD2	// Constructor to initialize the PT100 object
+voltageConverter	KEYWORD2	// Converts analog value to voltage
+calculateFourierTemperatureDefault	KEYWORD2	// Calculates temperature using the default Fourier method
+calculatePoliTemperatureDefault	KEYWORD2	// Calculates temperature using the default polynomial method
+calculateExpTemperatureDefault	KEYWORD2	// Calculates temperature using the default exponential method
+MyCalculateFourierTemperature	KEYWORD2	// Custom Fourier temperature calculation
+MyCalculatePoliTemperature	KEYWORD2	// Custom polynomial temperature calculation
+MyCalculateExpTemperature	KEYWORD2	// Custom exponential temperature calculation
+calculateTemperature	KEYWORD2	// Calculates temperature using a selected method (Fourier, Polynomial, or Exponential)
+
+# Constants
+FOURIER	LITERAL1	// Fourier method constant
+POLINOMIAL	LITERAL1	// Polynomial method constant
+EXPONENTIAL	LITERAL1	// Exponential method constant
+
+# Private attributes (if required for internal documentation)
+_pin	LITERAL2	// Analog pin connected to the sensor
+_voltage_ref	LITERAL2	// Reference voltage of the ADC
+_resolution	LITERAL2	// ADC resolution value
+
